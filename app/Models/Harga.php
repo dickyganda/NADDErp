@@ -9,8 +9,8 @@ class Barang extends Model
 {
     // use HasFactory;
 
-    protected $table = 'm_barang';
-    protected $primaryKey = 'IdBarang';
+    protected $table = 'm_harga';
+    protected $primaryKey = 'IdHarga';
     public $timestamps = false;
     // protected $fillable = ['NamaBarang'];
 }
